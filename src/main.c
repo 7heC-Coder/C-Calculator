@@ -19,7 +19,7 @@ int main(){
     printf("Enter the operator: ");
     scanf(" %c", &operation);
 
-    // switch statements to take care of the different issues
+    // switch statements to take care of the different conditions
     switch (operation) {
         case '+':
             result = num1 + num2;
